@@ -2,7 +2,12 @@ package graphicController;
 
 public class FirstGUIRunner
 {
-	FirstGUIController GUIController = new FirstGUIController();
-	GUIController.start();
+	public static void main(String [] args)
+	{
+		FirstGUIController newGUIController = new FirstGUIController();
+		newGUIController.start();
+		
+	}
+	
 
 }
